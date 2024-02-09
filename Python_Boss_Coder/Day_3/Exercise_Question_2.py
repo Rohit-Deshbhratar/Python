@@ -2,26 +2,26 @@
 
 #################################################################################
 # Approach 1 -> For Loop
-# num = int(input("Enter number to print it's first 10 even numbers: "))
-# count = 0
+num = int(input("Enter number to print it's first 10 even numbers: "))
+count = 0
 
-# for even in range(1, num + 1):
-#     if (even%2 == 0):
-#         print(even, end=" ")
-#         count+=1
-#         if(count == 10):
-#             break
+for even in range(1, num + 1):
+    if (even%2 == 0):
+        print(even, end=" ")
+        count+=1
+        if(count == 10):
+            break
 #################################################################################
 # Approach 2 -> While Loop
-# nums = int(input("\nEnter a Number: "))
-# counter = 0
-# e = 1
+nums = int(input("\nEnter a Number: "))
+counter = 0
+e = 1
 
-# while (e <= nums) and (counter < 10):
-#     if (e % 2 == 0):
-#         print(e, end=" ")
-#         counter+=1
-#     e+=1
+while (e <= nums) and (counter < 10):
+    if (e % 2 == 0):
+        print(e, end=" ")
+        counter+=1
+    e+=1
 #################################################################################
 # Approach 3 -> Recursion
 
